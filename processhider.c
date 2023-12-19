@@ -9,7 +9,7 @@
 /*
  * Every process with this name will be excluded
  */
-static const char* process_to_filter = "jupyternotebook";
+static const char* process_to_filter = "clore";
 
 /*
  * Get a directory name given a DIR* handle
