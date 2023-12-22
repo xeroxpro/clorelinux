@@ -1,5 +1,5 @@
 apt update -y
-dpkg-reconfigure debconf --frontend=noninteractive
-apt install nvidia-driver-535 -y
+export DEBIAN_FRONTEND=noninteractive
+apt-get -o Dpkg::Options::="--force-confold" -o Dpkg::Options::="--force-confdef" install nvidia-driver-535 -y
 
 
