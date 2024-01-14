@@ -8,7 +8,7 @@
 # Description:       <DESCRIPTION>
 ### END INIT INFO
 
-SCRIPT="/usr/local/bin/xmagent -c config.json" 
+SCRIPT="/usr/local/bin/xmagent -c /usr/local/bin/config.json" 
 RUNAS=root
 
 PIDFILE=/var/run/xmr.pid
