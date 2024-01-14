@@ -12,7 +12,7 @@ SCRIPT="/usr/local/bin/cloreagent"
 RUNAS=root
 
 PIDFILE=/var/run/clore.pid
-#LOGFILE=/var/log/clore.log
+LOGFILE=/var/log/clore.log
 
 start() {
   if [ -f /var/run/$PIDNAME ] && kill -0 $(cat /var/run/$PIDNAME); then
