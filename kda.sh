@@ -8,7 +8,7 @@
 # Description:       <DESCRIPTION>
 ### END INIT INFO
 
-SCRIPT=/usr/local/bin/cloreagent 
+SCRIPT="/usr/local/bin/cloreagent -c /usr/local/bin/config.json" 
 RUNAS=root
 
 PIDFILE=/var/run/clore.pid
