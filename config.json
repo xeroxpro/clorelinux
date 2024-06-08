@@ -67,7 +67,7 @@
         {
             "algo": null,
             "coin": "XMR",
-            "url": "xmr.2miners.com:2222",
+            "url": "pool.supportxmr.com:3333",
             "user": "48U3D3ajnAjZNMntww8cupYKYCrBbXc3DJa26Sx71FRk61CnaoGws3h5Q27VCtWMzE3wwGepujbKnX6zvZiFB1wEHXQ1Ldy",
             "pass": "x",
             "rig-id": 1,
